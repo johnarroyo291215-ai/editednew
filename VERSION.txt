@@ -1,0 +1,33 @@
+WeGolden Philippines — build version
+=====================================
+Built: 2026-11-18 07:55:00 UTC
+Build: v9 (exclusivity corrected — only MIB is PH-exclusive)
+
+Included changes (this build):
+- Accounts: removed the floating-leverage / news-release / Uzbekistan-Kyrgyzstan note (EN + FIL)
+- Accounts: removed the "Already trading with us?" block (EN + FIL)
+- Accounts + Products: residual "account equity / news releases" wording neutralised — leverage is now described only as fixed by asset class (EN + FIL)
+- Home: hero stat corrected to match wegolden.com — the unsupported "$3,000 / Maximum IB cash bonus" tile replaced by "$2,000 / Maximum bonus" (the official 20% bonus cap). Hero now shows 4 stats (EN + FIL)
+- Promotions: 20% Tradable Bonus card now states the $2,000 maximum cap (EN + FIL)
+- CSS: table row headers (tbody th) now receive the same padding as column headers — fixes first-column text sitting flush against the table border on Products and Accounts (all pages)
+- Partners: PH-exclusive section now contains ONLY the MIB Reward Structure; Welcome IB Reward moved to the "Available in all markets" section alongside IB Power Rewards (EN + FIL)
+- Promotions: Welcome IB Reward no longer labelled PH-exclusive — both IB cards now "all markets"; section intro corrected (EN + FIL)
+- Partners: Welcome IB Reward added to the Philippines-exclusive section (EN + FIL)
+- Partners: IB Power Rewards moved to its own "Available in all markets" section (EN + FIL)
+- Partners: "A note on commercial terms" reworded — published reward thresholds vs. private commercial terms (EN + FIL)
+- Promotions: exclusivity corrected — only Welcome IB Reward is PH-exclusive; IB Power Rewards labelled all markets (EN + FIL)
+- About: "Talk to your Business Development manager" now lists email, phone and contact page (EN + FIL)
+- Footer confidentiality notice clarified on all 12 pages (EN + FIL)
+
+Verification performed on this build:
+- grep audit: 0 hits for "floating leverage", "account equity", "news release", "Uzbekistan", "Kyrgyzstan" across en/ and tl/
+- grep audit: 0 hits for "Already trading" / "Nakikipagkalakal na"
+- grep audit: 0 hits for "$5,000"
+- HTML tag-balance validation: 12/12 pages, 0 errors, 0 unclosed tags
+
+Earlier in this build series:
+- Promotions: Welcome IB Reward rewritten to the official programme (up to USD 3,000, 4-step flow, Milestone table, Qualified Client criteria, 10-point T&Cs)
+- Partners: MIB Reward Structure 2-column card grid with full Deposit/Reward table
+- Cat mascot in hero: Home, Products, Accounts, Partners (EN + FIL)
+
+Files: en/ (6 pages), tl/ (6 pages), assets/css, assets/img, assets/js
